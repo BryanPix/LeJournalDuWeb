@@ -29,10 +29,34 @@ h1 >span{
    opacity: 65%;
 }
 #title-flex{
- margin-left: 180px;}
+ margin-left: 180px;
+}
 #logo{
     float: left;
 }
+h2{
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
 h4{
     opacity: 65%;
+}
+hr{
+    height: 0.1rem;
+    background-color: grey;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    display: inline-block;
+    flex-basis: 33%;
+    border: 1px solid black;
+    // margin: 0.3rem;
+    // justify-content: space-evenly; 
+    font-size: 0.9rem;
 }
