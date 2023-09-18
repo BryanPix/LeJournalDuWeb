@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "AlfaSlabOne";
+  src: url("/assets/font/AlfaSlabOne-Regular.ttf");
+}
+body {
+  font-family: "AlfaSlabOne";
+  background-image: url("/assets/img/fond.webp");
+}
+
+.clear {
+  clear: both;
+}
+
+body > span {
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 0.1rem 0.9rem;
+}
+
+#logo > img {
+  max-width: 10rem;
+  max-height: 10rem;
+  opacity: 65%;
+}
+
+h1 > span {
+  opacity: 65%;
+}
+
+#title-flex {
+  margin-left: 180px;
+}
+
+#logo {
+  float: left;
+}
+
+h4 {
+  opacity: 65%;
+}/*# sourceMappingURL=style.css.map */
